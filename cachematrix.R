@@ -9,7 +9,7 @@
 
 ## NOTE NOTE ! In my code, I have removed the set function.
 ## This is because the set function was actually never run: It is a completely unnecessary function. 
-## All the function does it take x from the parent environment, and assign that back to to x in the parent environment.
+## All the function does is take x from the parent environment, and assign that back to to x in the parent environment.
 ## And the set function was never called!                
 
 
