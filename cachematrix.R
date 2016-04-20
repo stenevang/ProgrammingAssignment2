@@ -7,6 +7,12 @@
 ## It is really a list of elements where each element is a function and the cached inverse of the matrix
 ## is an object in the Parent Environment of each of those functions
 
+## NOTE NOTE ! In my code, I have removed the set function.
+## This is because the set function was actually never run: It is a completely unnecessary function. 
+## All the function does it take x from the parent environment, and assign that back to to x in the parent environment.
+## And the set function was never called!                
+
+
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL                         # We are now creating the object and inv is set to NULL - we have not calculated it yet
         
